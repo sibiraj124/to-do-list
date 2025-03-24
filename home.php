@@ -16,8 +16,10 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <header>
-     <div>   <h1>Welcome, <?php echo $_SESSION['username']; ?>!</h1></div>
-    <div><a href="login.html">Logout</a></div>
+        
+      <h1>Welcome, <?php echo $_SESSION['username']; ?>!</h1>
+   <a href="login.html">Logout</a>
+
 </header>
     <div class="container">
     <div class="to-do-app">

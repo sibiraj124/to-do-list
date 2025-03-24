@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Invalid password. <a href='login.html'>Try again</a>";
         }
     } else {
-        echo "No user found. <a href='register.html'>Register here</a>";
+        echo "No user found. <a href='registerpage.html'>Register here</a>";
     }
 }
 
